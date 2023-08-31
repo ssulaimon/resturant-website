@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    --primaryColor: #FE9F48;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#navigators{
+    display: inline-block;
+}
+.website-name{
+    font-weight: 700;
+    display: inline;
+   
+}
+
+.header{
+    padding: 10px 20vw;
+}
+#house{
+    color: var(--primaryColor);
+}
+.nav-container{
+    display: inline;
+    margin: 0 5vw;
+   
+}
+.nav-item{
+    margin: 0 5px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.sign-in-btn{
+    color: white;
+    background-color: var(--primaryColor);
+    font-size: 11px;
+    padding: 3px 10px;
+    margin: 0px 2px;
+    border-radius: 10px;
+   
+}
+.register-btn{
+    color: white;
+    background-color: var(--primaryColor);
+    font-size: 11px;
+    padding: 3px 10px;
+    margin: 0px 2px;
+    
+}
+.nav-item:hover{
+    color: var(--primaryColor);
+}
+.register-btn:hover{
+    color: black;
+}
+.sign-in-btn:hover{
+    color: black;
+}
+.body{
+    margin: 20px 20vw 0px 20vw;
+}
+.img-container{
+    float: right;
+   
+}
+.inner-container{
+    background-color: var(--primaryColor);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+ 
+background-image: url('../images/delivery-guy.png');
+   background-size: 210px;
+   background-repeat: no-repeat;
+   background-position-x: 39px;
+   background-position-y: 10px;
+}
+.title{
+   font-size: 3rem;
+   font-weight: 700;
+   margin-top: 50px;
+}
+p{
+    margin: 20px 0;
+    color: #A3A3A3;
+    font-size: 12px;
+}
+.color-text{
+    color: var(--primaryColor);
+}
+.find-resturant{
+    background-color:var(--primaryColor);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 2px 10px;
+    display: inline-block;
+}
+.order{
+
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 2px 10px;
+    background-color: black;
+}
+.order:hover{
+    color: var(--primaryColor);
+}
+.find-resturant:hover{
+    color:black;
+    
+}
+.download-container{
+    margin: 150px 0px;
+    background-color: var(--primaryColor);
+    height: 200px;
+    position: relative;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+.mock-up{
+    position: absolute;
+    height: 400px;
+    bottom:  -100px;
+}
+.details{
+    
+    color: white;
+   position: absolute;
+   left: 30vw;
+   margin-top: 30px;
+    
+}
+.play-store-link{
+    position: absolute;
+    left: 30vw;
+    margin-top: 100px;
+   
+
+}.apple-store-link{
+    position: absolute;
+    left: 40vw;
+    margin-top: 100px;
+   
+
+}
+#reason{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.reason-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.item{
+    margin: 0 10px;
+}
+.item-details{
+    margin: 9px 0;
+}
+
+.icon-color{
+    color: var(--primaryColor);
+}
+.categories-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    
+}
+.category-container{
+    width: 210px;
+}
+.img-container-categories{
+    position: relative;
+    height: 170px;
+    width: 170px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 50px;
+  
+}
+.category-img{
+    position: absolute;
+    bottom:  10px;
+    left:  -5px;
+}
+.category-title{
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 30px;
+    color:var(--primaryColor)
+}
+.category-link{
+    display: block;
+    text-align: center;
+    font-size: 0.6rem;
+    margin-right: 30px;
+    font-weight: 700;
+
+}
+
+.feature-banner{
+    height: 250px;
+    background-color: black;
+    margin-bottom: 20px;
+    padding: 50px 20vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.feature-title{
+    color: white;
+}
+.pizza-image{
+    position: absolute;
+    left: 45vw;
+    top: 90px;
+}
+.delivery-container{
+    bottom: 40px;
+    position: absolute;
+    right: 10vw;
+    width: 200px;
+}
+.delivery-title{
+    color: white;
+    font-size: 0.8rem;
+    margin: 0;
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+.drone-image{
+    display: block;
+    margin-left: -40px;
+    
+    
+}
+.delivery-title > p{
+    color: white;
+    margin: 0;
+    font-size: 0.4rem;
+}
+.popular-title{
+    text-align: center;
+    margin: 60px;
+}
+.popular-menu-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 22vw;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.menu-container{
+    width: 200px;
+    margin: 5px 10px;
+    
+
+   
+}
+.menu-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+.menu-container > h4{
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+.rating{
+    display: inline;
+}
+.menu-container > p{
+   margin: 0px;
+   margin-bottom: 10px;
+    color: black;
+}
+.menu-container > button{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-size: 0.8rem;
+}
+.menu-container > button:hover{
+    background-color: var(--primaryColor);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.view-product{
+    display: block;
+    margin: 30px auto 200px auto;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.view-product:hover{
+    background-color: var(--primaryColor);
+    /* border: none; */
+    color: white;
+}
+.discount-container{
+    height: 250px;
+    background-color: black;
+    margin: 0px 22vw;
+    border-radius: 20px;
+    position: relative;
+    color:white;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+.discount-container > p{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+.discount-container > h3{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.discount-container > button{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.discount-image{
+    position: absolute;
+    bottom:-9%;
+}
+
+.footer{
+    background-color: #E07E1B;
+    height: 300px;
+    padding-top: 30px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 2rem;
+}
+.the-company{
+    margin-left: 80px;
+}
+.the-company > p{
+    color: black;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.7rem;
+}
+li > a:hover{
+    color: white;
+}
+.more-info > p{
+    color: black;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.more-info{
+    float: right;
+    margin-right: 80px;
+    
+}
+.contact{
+    background-color: black;
+    margin: 0px 22vw;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contact > a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.footer-color{
+    color: var(--primaryColor);
+}
+.contact > p{
+    color: white;
+    margin: 0 10vw;
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+}
+i{
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+i:hover{
+    color: var(--primaryColor);
+}
+.nav-icon{
+    display: none;
+}
+
